@@ -1,0 +1,17 @@
+.right
+{
+    float:right;
+}
+.center
+{
+  width: 100%;
+}
+
+.center-atlevel
+{
+  width: 65%;
+}
+.space
+{
+  margin: 5px 5px 5px 5px;
+}

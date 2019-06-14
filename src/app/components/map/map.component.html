@@ -1,0 +1,15 @@
+<div id="map" class="left container col-md-12">
+    
+    <div class="input-group search-field">
+        <input type="text" class="form-control">
+        <span class="input-group-btn">
+          <button class="btn btn-outline-dark space" type="button">Buscar</button>
+        </span>
+      </div>
+
+    <agm-map class="estilo-mapa" [latitude]="lat" [longitude]="lng">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+
+</div>
+

@@ -1,0 +1,66 @@
+<div class="modal-header">
+    <h4 class="modal-title">Bienvenido de nuevo. Inicio de sesión!</h4>
+    <!-- <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button> -->
+  </div>
+  <div class="modal-body">
+
+      <form class="form-horizontal">
+          
+          <!-- Form Name -->
+          <legend></legend>
+          
+          <!-- Text input-->
+          <div class="form-group">
+            <div class="col-md-12">
+            <input id="email-field" name="email-field" type="text" placeholder="Correo electrónico o nombre de usuario" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+          
+          <!-- Appended checkbox -->
+          <div class="form-group">
+            <div class="col-md-12">
+              <div class="input-group">
+                <input id="password-field" name="password-field" class="form-control" type="text" placeholder="Contraseña" required="">
+                    <span class="input-group-addon">     
+                    <input type="checkbox">     
+                </span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- Multiple Checkboxes -->
+          <div class="form-group">
+            <div class="col-md-12">
+            <div class="checkbox">
+              <label for="password-checkbox-0">
+                <input type="checkbox" name="password-checkbox" id="password-checkbox-0" value="1">
+                Mantener cuenta activa
+              </label>
+            </div>
+            </div>
+          </div>
+          
+          <!-- Button -->
+          <div class="form-group right">
+            <div class="col-md-12">
+              <button id="signup-button" name="signup-button" class="btn btn-outline-primary space">Acceder</button>
+              <span> </span>
+              <button type="button" class="btn btn-outline-dark space" (click) = "modal.close()" >Cancelar</button>
+
+            </div>
+          </div>
+          
+          </form>
+
+
+
+  </div>
+
+  <div class="modal-footer">
+    <!-- <button type="button" class="btn btn-outline-primary" >Acceder</button> -->
+
+  </div>

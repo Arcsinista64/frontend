@@ -1,0 +1,27 @@
+.left
+{
+    float: left;
+}
+
+agm-map {
+    height: 510px;
+  }
+
+  .estilo-mapa
+  {
+    width: 100%;
+    margin: 23px 5px 23px 5px;
+  }
+
+  .search-field
+  {
+    align-items: center;
+    width: 99%;
+    margin: 23px 5px -70px 5px;  
+    z-index: 3;
+  }
+
+.space
+{
+  margin: 5px 5px 5px 5px;
+}

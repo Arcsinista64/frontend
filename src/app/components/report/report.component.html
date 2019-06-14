@@ -1,0 +1,101 @@
+<div class="modal-header">
+    <h4 class="modal-title">Reportaje de {{incidente}}</h4>
+  </div>
+  <div class="modal-body">
+
+          
+          <form class="form-horizontal">
+              
+              <!-- Reporte de: -->
+            
+              <label class="col-md-12 control-label" for="incident-address">Clasificacion del incidente:</label>
+
+              <div class="container navbar form-group btn-group-toggle center" ngbRadioGroup name="radioBasic">
+
+                <label ngbButtonLabel class="">
+                  <input ngbButton type="radio">Incendio
+                </label>
+                <label ngbButtonLabel class="">
+                  <input ngbButton type="radio"> Robo
+                </label>
+                <label ngbButtonLabel class="">
+                  <input ngbButton type="radio">Pelea
+                </label> 
+                <label ngbButtonLabel class="">
+                  <input ngbButton type="radio">Siniestro
+                </label>
+              </div>
+              <hr>
+
+              <!-- Nivel de:  -->
+
+              <label class="col-md-12 control-label" for="incident-address">Nivel de {{incidente}}:</label>
+
+              <div class="container navbar form-group btn-group-toggle center-atlevel" ngbRadioGroup name="radioBasic">
+
+                  <label ngbButtonLabel class="">
+                    <input ngbButton type="radio">Bajo
+                  </label>
+                  <label ngbButtonLabel class="">
+                    <input ngbButton type="radio"> Alto
+                  </label>
+                  <label ngbButtonLabel class="">
+                    <input ngbButton type="radio">Grave
+                  </label> 
+                </div>
+                
+
+              <!-- Appended checkbox -->
+              <div class="form-group">
+                <label class="col-md-12 control-label" for="incident-address">Direccion de {{incidente}}:</label>
+                <div class="col-md-12">
+                  <div class="input-group">
+                    <input id="incident-address" name="incident-address" class="form-control" type="text" placeholder="Calle # ext, Colonia, Municipio." required="">
+                        <span class="input-group-addon">     
+                        <input type="checkbox" checked="checked">     
+                    </span>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <!-- Upload Button --> 
+              <label class="col-md-12 control-label" for="incident-details">Fotografia de {{incidente}}</label>
+              <div class="form-group col-md-12">
+                  <div class="input-group mb-3">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                      <label class="custom-file-label" for="inputGroupFile02">Cargar archivo: </label>
+                    </div>
+                  </div>
+              </div>
+              
+              <!-- Textarea -->
+              <div class="form-group">
+                <label class="col-md-12 control-label" for="incident-details">Detalles de {{incidente}}</label>
+                <div class="col-md-12">                     
+                  <textarea class="form-control" id="incident-details" name="incident-details"></textarea>
+                </div>
+              </div>
+              
+              <div class="form-group right">
+                  <div class="col-md-12">
+                    <button id="signup-button" name="signup-button" class="btn btn-outline-primary space">Enviar</button>
+                    <span> </span>
+                    <button type="button" class="btn btn-outline-dark space" >Cancelar</button>
+      
+                  </div>
+                </div>
+
+              </form>
+          
+              
+
+
+
+  </div>
+
+  <div class="modal-footer">
+    <!-- <button type="button" class="btn btn-outline-primary" >Acceder</button> -->
+
+  </div>
