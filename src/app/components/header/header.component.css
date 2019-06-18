@@ -15,6 +15,11 @@
   margin: 5px 5px 5px 5px;
 }
 
+.visibilidad
+{
+    visibility: hidden;
+}
+
 .btn-safety{color:#fff;background-color:#247fb8;border-color:#247fb8}
 .btn-safety:hover{color:#fff;background-color:#2b2c2e;border-color:#247fb8}
 .btn-safety.focus,.btn-safety:focus{box-shadow:0 0 0 .1rem rgb(179,218,244)}

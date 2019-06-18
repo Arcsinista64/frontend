@@ -6,7 +6,31 @@
   </button>
 
   <div class = "collapse navbar-collapse show " id = "navbarColor01" [ngClass]="{ 'show': navbarOpen }">
+
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+
+
+
+
+      </ul>
+
+
     <ul class = "navbar-nav ">
+        <li class="nav-item ">
+            <button type = "button" class = "btn btn-safety space visibilidad"> <span></span> Perfil </button>
+          </li>
+          <li class="nav-item ">
+              <button type = "button" class = "btn btn-safety space visibilidad"> <span></span> Templates </button>
+            </li>
       <li class = "nav-item">
         <button type = "button" class = "btn btn-safety space" (click)="login()"> <span></span> Login </button>
       </li>
@@ -18,22 +42,3 @@
     </ul>
   </div>
 </div>
-<!-- 
-<ngb-tabset>
-  <ngb-tab title="x"></ngb-tab>
-  <ngb-tab title="Inicio">
-    <ng-template ngbTabContent>
-    </ng-template>
-  </ngb-tab>
- 
-  <ngb-tab title="Quienes somos?" >
-    <ng-template ngbTabContent>
-    </ng-template>
-  </ngb-tab>
-
-  <ngb-tab title="Contacto" >
-    <ng-template ngbTabContent>
-
-    </ng-template>
-  </ngb-tab>
-</ngb-tabset> -->

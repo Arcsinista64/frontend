@@ -4,7 +4,7 @@
 }
 
 agm-map {
-    height: 480px;
+    height: 500px;
   }
 
   .estilo-mapa
@@ -17,7 +17,7 @@ agm-map {
   {
     align-items: center;
     width: 99%;
-    margin: 23px 5px -70px 5px;  
+    margin: 23px 5px -85px 5px;  
     z-index: 3;
   }
 
