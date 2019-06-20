@@ -14,6 +14,9 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ReportComponent } from './components/report/report.component';
 
 import { AgmCoreModule } from '@agm/core';
+import { AdminComponent } from './components/admin/admin.component';
+
+
 
 
 @NgModule({
@@ -26,7 +29,8 @@ import { AgmCoreModule } from '@agm/core';
     MenuComponent,
     LoginComponent,
     SignUpComponent,
-    ReportComponent
+    ReportComponent,
+    AdminComponent
     
   ],
   imports: [
