@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -12,9 +11,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ReportComponent } from './components/report/report.component';
-
 import { AgmCoreModule } from '@agm/core';
 import { AdminComponent } from './components/admin/admin.component';
+import { NavOption2Component } from './components/nav-option2/nav-option2.component';
+import { NavOption3Component } from './components/nav-option3/nav-option3.component';
 
 
 
@@ -30,7 +30,9 @@ import { AdminComponent } from './components/admin/admin.component';
     LoginComponent,
     SignUpComponent,
     ReportComponent,
-    AdminComponent
+    AdminComponent,
+    NavOption2Component,
+    NavOption3Component
     
   ],
   imports: [
