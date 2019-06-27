@@ -17,6 +17,11 @@
 
 .visibilidad
 {
+    display:none;
+}
+
+.visibility
+{
     visibility: hidden;
 }
 
